@@ -1,9 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Webpage Layout</title>
+  <title>Responsive Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
 </head>
-<body>
 
+<body>
+	<div id="w" itemscope itemtype="http://schema.org/Person">
+		<header class="clearfix">
+			<div id="info">			
+				<h1><span itemprop="name">Benedict Nagle-Rose</span></h1>
+				<h3><span itemprop="jobTitle">Archaeologist/Osteoarchaeologist &amp; Trainee Front- and Back-End Developer</span></h3>
+				<small itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				  <span itemprop="addressLocality">South Hampstead</span>, 
+				  <span itemprop="addressRegion">London</span>, 
+				  <span itemprop="addressCountry">UK</span>
+				</small>
+				<small><span itemprop="email">bnaglerose88@gmail.com</span></small>
+				<small><a href="https://uk.linkedin.com/pub/benedict-nagle-rose/93/a0b/835" itemprop="url">LinkedIn Profile</a> &bull; <a href="https://github.com/BeeNag" itemprop="url">GitHub Profile</a></small>
+			</div>
+			
+			<div id="photo">
+				<img src="file:///Users/benedictnagle-rose/Gits/personal-webpage/Benedict%20Nagle-Rose.jpg" alt="Benedict Nagle-Rose photo avatar" itemprop="image" />
+			</div>
+		</header>
+		
+		<section id="profile">
+			<h2>My History &amp; Profile</h2>
+			<p itemprop="description">I am currently an osteoarchaeologist, re-training as a software developer at the <a href="https://www.ironyard.co.uk/">Iron Yard</a> in Central London. I have previously worked for various archaeological companies such as: <a href="www.mola.org.uk/">MOLA</a> and <a href="www.northcornwallheritage.co.uk/">North Cornwall Heritage</a>.</p>
+
+            <div class="melorn">            
+                 <img src="file:///Users/benedictnagle-rose/Gits/personal-webpage/Melorn.jpeg" alt="Melorn" />
+            </div>
+          
+            <p itemprop="description"> I first started university in 2006 at the University of Bristol, studying Chemistry. However, I did not find this to be entirely fulfilling and I left the course in 2008. I worked as an assistant science technician at <a href="http://www.ucs.org.uk/">University College School</a> between the end of 2008 and 2009, when I decided to embark on a degree in Bioarchaeology at the University of York. During my time spent on the degree I specialized in human evolution, human osteology and paleodiet. After graduating in 2012, with a 2:1, I went on to start a masters degree in Skeletal and Dental Bioarchaeology at University College London. For the duration of the course I increased my knowledge of human osteology, and went on to focus on the study of the teeth.</p>
+            <p itemprop="description">After graduating from UCL I went on to work as an archaeologist all over the country but struggled to find work as an osteoarchaeologist. To supplement my income I also worked as a team assistant at an events agency called <a href="www.high-society.co.uk/">High Society</a>.</p>
+            <p itemprop="description">When I am not studying code (HTML, CSS and JavaScript at the moment) or reading about the latest advancements in archaeological science, I enjoy many other activities. I like to stay active so I try and run at least a mile every day. I also play football and American (flag) football every week. I am a voracious reader, my favorite genres being fantasy and historical fiction. I am also an active video game player 
+<br>
+<a href="http://eu.playstation.com/psn/profile/DimRocTheBoat/"><img src="http://mypsn.eu.playstation.com/psn/profile/DimRocTheBoat.png" border="0" /></a>
+<br>
+and I especially enjoy sinking my teeth into a good RPG or JRPG.</p>
+
+      </section>
+		
+		<section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+			<h2 itemprop="name">Skillset</h2>
+			<section id="skills-left">
+				<h4 itemprop="about">Development</h4>
+				<ul>
+					<li itemprop="itemListElement">HTML5</li>
+					<li itemprop="itemListElement">CSS3</li>
+					<li itemprop="itemListElement">JavaScript</li>
+					<li itemprop="itemListElement">Bootstrap &amp; Flexbox</li>
+				</ul>
+			</section>
+			
+			<section id="skills-right">
+				<h4 itemprop="about">Software</h4>
+				<ul>
+					<li itemprop="itemListElement">SPSS</li>
+					<li itemprop="itemListElement">Morphologika &amp; ImageJ</li>
+					<li itemprop="itemListElement">MS Office 2007-2010</li>
+					<li itemprop="itemListElement">Audacity</li>
+				</ul>
+			</section>
+		</section>
+		
+		<section id="education">
+			<h2>Past Education</h2>
+			<p><span itemprop="alumniOf">City of London School</span> graduate of 2006.</p>
+          <p><span itemprop="alumniOf">University of York</span> graduate of 2012 (2:1).</p>
+          <p><span itemprop="alumniOf">University College London (UCL)</span> graduate of 2013 (61%).</p>
+		</section>
+		
+		<section id="experience">
+			<h2>Work Experience</h2>
+			<p>Assistant Science Technician ~ 2008-2009</p>
+			<p>Volunteer Archaeologist ~ 2009</p>
+            <p>Dental Surgery/Dental Technician ~ August/September 2013</p>
+			<p>Archaeologist ~ June/July 2014</p>
+            <p>Archaeologist ~ July/August 2014</p>
+            <p>Volunteer Archaeologist ~ August 2014</p>
+            <p>Catering Assistant/Team Player ~ March-October 2015</p>
+		</section>
+
+	</div>
 </body>
 </html>
